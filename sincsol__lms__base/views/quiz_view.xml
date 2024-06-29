@@ -35,10 +35,8 @@
             </form>
         </field>
     </record>
-
-    
     <record id="view_quiz_tree" model="ir.ui.view">
-        <field name="name">ustadam.quiz.tree</field>
+        <field name="name">Quizzes</field>
         <field name="model">ustadam.quiz</field>
         <field name="arch" type="xml">
             <tree string="Quiz">

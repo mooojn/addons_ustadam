@@ -13,15 +13,4 @@
             </form>
         </field>
     </record>
-
-    <record id="view_option_tree" model="ir.ui.view">
-        <field name="name">ustadam.option.tree</field>
-        <field name="model">ustadam.option</field>
-        <field name="arch" type="xml">
-            <tree string="Option">
-                <field name="content"/>
-                <field name="is_correct"/>
-            </tree>
-        </field>
-    </record>
 </odoo>

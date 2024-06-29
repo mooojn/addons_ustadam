@@ -1,5 +1,4 @@
 <odoo>
-
     <record id="view_question_form" model="ir.ui.view">
         <field name="name">ustadam.question.form</field>
         <field name="model">ustadam.question</field>
@@ -17,16 +16,6 @@
                     </group>
                 </sheet>
             </form>
-        </field>
-    </record>
-
-    <record id="view_question_tree" model="ir.ui.view">
-        <field name="name">ustadam.question.tree</field>
-        <field name="model">ustadam.question</field>
-        <field name="arch" type="xml">
-            <tree string="Question">
-                <field name="content"/>
-            </tree>
         </field>
     </record>
 </odoo>
