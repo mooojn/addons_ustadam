@@ -1,0 +1,29 @@
+<odoo>
+<!-- Option Form View -->
+    <record id="view_option_form" model="ir.ui.view">
+        <field name="name">ustadam.option.form</field>
+        <field name="model">ustadam.option</field>
+        <field name="arch" type="xml">
+            <form string="Option">
+                <sheet>
+                    <group>
+                        <field name="content"/>
+                        <field name="is_correct"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Option Tree View -->
+    <record id="view_option_tree" model="ir.ui.view">
+        <field name="name">ustadam.option.tree</field>
+        <field name="model">ustadam.option</field>
+        <field name="arch" type="xml">
+            <tree string="Option">
+                <field name="content"/>
+                <field name="is_correct"/>
+            </tree>
+        </field>
+    </record>
+</odoo>
