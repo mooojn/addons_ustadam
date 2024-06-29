@@ -1,5 +1,5 @@
 <odoo>
-    <!-- Quiz Form View -->
+    
     <record id="view_quiz_form" model="ir.ui.view">
         <field name="name">ustadam.quiz.form</field>
         <field name="model">ustadam.quiz</field>
@@ -36,7 +36,7 @@
         </field>
     </record>
 
-    <!-- Quiz Tree View -->
+    
     <record id="view_quiz_tree" model="ir.ui.view">
         <field name="name">ustadam.quiz.tree</field>
         <field name="model">ustadam.quiz</field>

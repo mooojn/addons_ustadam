@@ -1,5 +1,4 @@
 <odoo>
-<!-- Option Form View -->
     <record id="view_option_form" model="ir.ui.view">
         <field name="name">ustadam.option.form</field>
         <field name="model">ustadam.option</field>
@@ -15,7 +14,6 @@
         </field>
     </record>
 
-    <!-- Option Tree View -->
     <record id="view_option_tree" model="ir.ui.view">
         <field name="name">ustadam.option.tree</field>
         <field name="model">ustadam.option</field>
