@@ -27,8 +27,6 @@ Long description of module's purpose
         'views/views.xml',
         'views/templates.xml',
         'views/quiz_view.xml',
-        'views/question_view.xml',
-        'views/option_view.xml',
         'views/quiz_actions.xml',
         'views/quiz_menus.xml',
 
