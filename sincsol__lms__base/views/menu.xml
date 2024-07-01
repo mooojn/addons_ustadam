@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Menu for Quiz -->
+    <menuitem id="menu_quiz_root" name="Quizzes" sequence="1"/>
+
+    <!-- Menu Item for Quiz -->
+    <menuitem id="menu_quiz" name="Quizzes" parent="menu_quiz_root" action="action_quiz_tree"/>
+
+    <!-- Menu Item for Questions -->
+    <menuitem id="menu_question" name="Questions" parent="menu_quiz_root" action="action_question_form"/>
+</odoo>

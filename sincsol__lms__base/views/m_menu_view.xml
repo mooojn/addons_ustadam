@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_quiz" model="ir.actions.act_window">
+        <field name="name">Quiz</field>
+        <field name="res_model">ustadam.quiz</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                You can start an existing quiz from here.
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="menu_quiz_root" name="Quiz" sequence="10"/>
+    <menuitem id="menu_quiz" name="Quizzes" parent="menu_quiz_root" action="action_quiz" sequence="10"/>
+</odoo>

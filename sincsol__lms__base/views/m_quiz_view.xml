@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Tree View for Quiz -->
+    <record id="view_quiz_tree" model="ir.ui.view">
+        <field name="name">ustadam.quiz.tree</field>
+        <field name="model">ustadam.quiz</field>
+        <field name="arch" type="xml">
+            <tree string="Quiz List" create="true">
+                <field name="name"/>
+                <field name="description"/>
+                <field name="passing_percentage"/>
+                <button name="action_start_quiz" string="Start Quiz" type="object" class="oe_highlight"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View for Quiz -->
+    <record id="view_quiz_form" model="ir.ui.view">
+        <field name="name">ustadam.quiz.form</field>
+        <field name="model">ustadam.quiz</field>
+        <field name="arch" type="xml">
+            <form string="Quiz Form" create="true" edit="true">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="description"/>
+                        <field name="passing_percentage"/>
+                    </group>
+                    <notebook>
+                        <page string="Questions">
+                            <field name="question_ids">
+                                <tree string="Questions" create="true" edit="true">
+                                    <field name="name"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                    <footer>
+                        <button string="Submit Quiz" type="object" name="submit_quiz" class="oe_highlight"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
