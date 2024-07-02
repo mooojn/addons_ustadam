@@ -1,4 +1,0 @@
-<odoo>
-    <menuitem id="menu_ustadam_root" name="Manage Courses"/>
-    <menuitem id="menu_ustadam_course" name="Courses" parent="menu_ustadam_root" action="action_ustadam_course"/>
-</odoo>
