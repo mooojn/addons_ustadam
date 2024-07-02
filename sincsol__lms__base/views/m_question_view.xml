@@ -5,38 +5,13 @@
         <field name="name">ustadam.question.tree</field>
         <field name="model">ustadam.question</field>
         <field name="arch" type="xml">
-            <tree string="Question List" create="false">
+            
+            <tree string="Questions">
                 <field name="name"/>
-                <field name="quiz_id"/>
+                <button name="open_related_options" type="object" string="Attempt" class="oe_highlight"/>
             </tree>
-        </field>
-    </record>
 
-    <!-- Form View for Questions with Options -->
-    <record id="view_question_form" model="ir.ui.view">
-        <field name="name">ustadam.question.form</field>
-        <field name="model">ustadam.question</field>
-        <field name="arch" type="xml">
-            <form string="Question Form">
-                <sheet>
-                    <group>
-                        <field name="name"/>
-                    </group>
-                    <notebook>
-                        <page string="Option Test">
-                            <field name="option_ids">
-                                <tree string="Options" create="true" edit="true" delete="true">
-                                    <field name="name"/>
-                                    <field name="is_correct"/>
-                                </tree>
-                            </field>
-                        </page>
-                    </notebook>
-                    <footer>
-                        <button string="Submit Answers" type="object" name="submit_answers" class="oe_highlight"/>
-                    </footer>
-                </sheet>
-            </form>
         </field>
     </record>
+    
 </odoo>
