@@ -23,6 +23,7 @@ Long description of module's purpose
     # always loaded
     'data': [
         'security/ir.model.access.csv',
+        'security/security.xml',
         # views
         'views/m_quiz_view.xml',
         'views/m_quiz_action.xml',
