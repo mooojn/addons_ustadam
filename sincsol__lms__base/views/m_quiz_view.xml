@@ -33,7 +33,7 @@
         <field name="arch" type="xml">
             <tree string="Options">
                 <field name="name"/>
-                <button name="test" type="object" string="Select" class="oe_highlight"/>
+                <button string="Select" class="oe_highlight"/>
             </tree>
         </field>
     </record>
