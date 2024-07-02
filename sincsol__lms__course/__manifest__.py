@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "./addons_ustadam/Sincsol_LMS_Course",
+    'name': "Sincsol_LMS_Course",
 
     'summary': "Short (1 phrase/line) summary of the module's purpose",
 

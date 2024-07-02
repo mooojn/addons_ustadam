@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "./addons_ustadam/Sincsol_LMS_quiz",
+    'name': "Sincsol_LMS_quiz",
 
     'summary': "Short (1 phrase/line) summary of the module's purpose",
 
