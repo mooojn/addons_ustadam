@@ -11,21 +11,14 @@ class Quiz(models.Model):
     course_id = fields.Many2one('ustadam.quiz', string='quiz_ids')
     question_ids = fields.One2many('ustadam.question', "quiz_id" ,string='Questions')
     # student_result_id = fields.Many2one('ustadam.user', string='Student Result')
-
-
     
-    def open_related_questions(self):
-        self.ensure_one()
-        return {
-        'type': 'ir.actions.act_window',
-        'name': 'Questions to attempt',
-        'view_mode': 'tree',
-        'res_model': 'ustadam.question',
-        'domain': [('quiz_id', '=', self.id)],
-        'context': {'default_quiz_id': self.id},
-        'target': 'new',
-    }
-
+    
+    def open_related_question(self):
+        action = self.env.ref('sincsol__lms__base.action_open_related_question').read()[0]
+        return action
+    
+    
+    
     def submit_quiz(self):
         # Logic to submit the quiz
         pass
