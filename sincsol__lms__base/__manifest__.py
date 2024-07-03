@@ -25,8 +25,8 @@ Long description of module's purpose
         'security/ir.model.access.csv',
         'security/security.xml',
         # views
-        'views/m_quiz_view.xml',
         'views/m_quiz_action.xml',
+        'views/m_quiz_view.xml',
         'views/m_quiz_menu.xml',
     ],
     # only loaded in demonstration mode
