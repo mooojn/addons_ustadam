@@ -6,4 +6,3 @@ access_ustadam_student_result,access_ustadam_student_result,model_ustadam_studen
 access_ustadam_quiz,access_ustadam_quiz,model_ustadam_quiz,base.group_user,1,1,1,1
 access_ustadam_question,access_ustadam_question,model_ustadam_question,base.group_user,1,1,1,1
 access_ustadam_option,access_ustadam_option,model_ustadam_option,base.group_user,1,1,1,1
-access_ustadam_student,access_ustadam_student,model_ustadam_student,base.group_user,1,1,1,1

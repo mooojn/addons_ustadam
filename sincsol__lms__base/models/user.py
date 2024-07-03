@@ -2,8 +2,8 @@ from odoo import models, fields
 
 class Ustadam_Student(models.Model):
     _inherit = "res.partner"
-    _name = "ustadam.student"
-    _description = "will hold user info"
+    # _name = "ustadam.student"
+    # _description = "will hold user info"
 
     # name = fields.Char(string='Name', required=True)
     # email = fields.Char(string='Email', required=True)
