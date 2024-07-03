@@ -58,9 +58,9 @@
             </tree>
         </field>
     </record>
-   <odoo>
+
     
-    <record id="view_quiz_inherited" model="ir.ui.view">
+    <!-- <record id="view_quiz_inherited" model="ir.ui.view">
         <field name="name">ustadam.quiz.tree.inherit</field>
         <field name="model">ustadam.quiz</field>
         <field name="inherit_id" ref="view_quiz_tree1"/>  
@@ -69,8 +69,8 @@
                 <field name="image"/>
             </xpath>
         </field>
-    </record>
-</odoo>
+    </record> -->
+
 
 
 </odoo>
