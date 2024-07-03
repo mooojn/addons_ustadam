@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <menuitem id="menu_quiz_root" name="Attempt-Quiz" sequence="10"  action="action_quiz"/>
+    <menuitem id="menu_quiz_root" name="Attempt-Quiz" action="action_quiz"/>
 </odoo>

@@ -5,7 +5,7 @@
         <field name="name">ustadam.quiz.tree1</field>
         <field name="model">ustadam.quiz</field>
         <field name="arch" type="xml">
-            <tree string="Quiz List" create="true">
+            <tree string="Quiz List">
                 <field name="name"/>
                 <field name="description"/>
                 <field name="passing_percentage"/>

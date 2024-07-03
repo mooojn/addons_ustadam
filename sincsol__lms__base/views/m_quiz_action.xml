@@ -18,8 +18,8 @@
         <field name="name">Questions to attempt</field>
         <field name="res_model">ustadam.question</field>
         <field name="view_mode">tree</field>
-        <field name="domain">[('quiz_id', '=', context.get('default_quiz_id'))]</field>
         <field name="context">{'default_quiz_id': active_id}</field>
+        <field name="domain">[('quiz_id', '=', context.get('default_quiz_id'))]</field>
     </record>
 
     <!-- Define the action for opening related options -->
